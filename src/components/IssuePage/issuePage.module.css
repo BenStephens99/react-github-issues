@@ -1,0 +1,26 @@
+.issue {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.body {
+    margin-bottom: 2rem;
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    h3 {
+        margin: 0;
+    }
+}
+
+.comment {
+    background-color: #f9f9f9;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+}
