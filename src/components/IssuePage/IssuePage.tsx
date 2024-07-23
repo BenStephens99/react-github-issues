@@ -43,7 +43,7 @@ export default function IssuePage () {
             </div>
             <div className={`${styles.comments} white-box`}>
                 <h3>Comments</h3>
-                {comments.map((comment: any) => (
+                {comments.map((comment: Comment) => (
                     <div key={comment.id} className={styles.comment}>
                         <p dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(comment.body || '') || '' }} />
                         <h4>by {comment.user.login}</h4>
